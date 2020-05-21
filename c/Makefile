@@ -4,7 +4,7 @@ EXECS     = $(SRC_FILES:.c=)
 O_FILES   = $(SRC_FILES:%.c=%.o)
 
 CC        = gcc
-CFLAGS    = -g -Wno-sizeof-array-argument
+CFLAGS    = -g
 LDFLAGS   = 
 LDLIBS    = -lm
 

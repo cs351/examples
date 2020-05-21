@@ -1,12 +1,16 @@
 /*
  * Demonstrates:
- * - basic pointer operations
+ * - pointer declarations
+ * - basic pointer-related operations: & (address-of), * (dereference)
  */
 
 #include <stdio.h>
 
 int main() {
-  int i, j, *p, *q;
+  int i;
+  int j;
+  int *p; 
+  int *q;
 
   i = 10;
   p = &j;

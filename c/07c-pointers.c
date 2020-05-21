@@ -1,11 +1,11 @@
 /*
  * Demonstrates:
- * - basic pointer operations
+ * - pointers to pointers (to pointers to ...)
  */
 
 #include <stdio.h>
 
-int swap(int *p, int *q) {
+void swap(int *p, int *q) {
   int tmp = *p;
   *p = *q;
   *q = tmp;

@@ -1,6 +1,7 @@
 /*
  * Demonstrates:
  * - array declaration and initialization
+ * - names as addresses (inspect with gdb)
  */
 
 #include <stdio.h>
@@ -13,6 +14,10 @@ int main() {
 
   /* dimension can be inferred if initialized when declaring */
   short grades[] = { 75, 90, 85, 100 };
+
+  /* a string is an array of characters terminated by a '\0' */
+  char str1[] = {'h', 'e', 'l', 'l', 'o', '\0'};
+  char str2[] = "hello";
 
   /* can only omit first dim, as partial initialization is ok */
   int sparse[][10] = { { 5, 3, 2 },

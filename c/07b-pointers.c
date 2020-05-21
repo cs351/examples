@@ -1,11 +1,11 @@
 /*
  * Demonstrates:
- * - basic pointer operations
+ * - pass by value and passing addresses for "action at a distance"
  */
 
 #include <stdio.h>
 
-int swap(int x, int y) {
+void swap(int x, int y) {
   int tmp = x;
   x = y;
   y = tmp;

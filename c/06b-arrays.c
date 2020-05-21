@@ -1,6 +1,6 @@
 /*
  * Demonstrates:
- * - array declaration and initialization
+ * - arrays as arguments
  */
 
 #include <stdio.h>

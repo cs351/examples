@@ -31,15 +31,16 @@ void free_llist(struct ll_node *head) {
   }
 }
 
-int main() {
-  struct ll_node *head = prepend("list!", NULL);
-  head = prepend("linked", head);
-  head = prepend("a",      head);
-  head = prepend("I'm",    head);
+int main(int argc, char *argv[]) {
+  struct ll_node *head = 0;
+  
+  for (int i=0; i<argc; i++) {
+    head = prepend(argv[i], head);
+  }
   
   struct ll_node *p;
   for (p=head; p; p=p->next) {
-      printf("%s ", p->data);
+    printf("%s ", p->data);
   }
   printf("\n");
   

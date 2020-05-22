@@ -37,6 +37,6 @@ int main() {
   char buf1[] = "hello!";
   char buf2[sizeof(buf1)];
 
-  strcpy_v5(buf2, buf1);
+  strcpy_v1(buf2, buf1);
   printf("%s\n", buf2);
 }

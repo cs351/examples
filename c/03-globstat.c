@@ -36,12 +36,15 @@ int main() {
   f2();
   f1();
   f2();
+  printf("\n");
 
   f3();
-  f4();
   f3();
-  f4();
   f3();
+  printf("\n");
+
+  f4();
+  f4();
   f4();
   return 0;
 }

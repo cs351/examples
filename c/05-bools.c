@@ -1,11 +1,16 @@
 /*
  * Demonstrates:
+ * - ternary operator
  * - "boolean" values
  */
 
 #include <stdio.h>
 
 int main() {
+  int a=5, b=10, max;
+
+  max = (a > b)? a : b;
+
   printf( 0       ? "True\n":"False\n");
   printf( NULL    ? "True\n":"False\n");
   printf( (2+4-6) ? "True\n":"False\n");

@@ -1,3 +1,8 @@
+/*
+ * Demonstrates:
+ * - struct definition and usage
+ */
+
 #include <stdio.h>
 #include <math.h>
 

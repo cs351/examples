@@ -10,7 +10,7 @@
 
 int main() {
   char  c  = 65;
-  short s = 0x1234;
+  short s  = 0x1234;
   int   i  = 'A',
         j  = 0x12345678,
         k  = 0xffffffff;

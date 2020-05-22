@@ -11,6 +11,7 @@ Students need to be able to:
 2. Write C programs that use:
     - primitive types
     - typecasts
+    - typedefs
     - local/global/static variables
     - control structures
     - functions
@@ -21,9 +22,8 @@ Students need to be able to:
         - pointer arithmetic
         - struct pointers (arrow syntax)
         - function pointers
-    - typedefs
-    - basic I/O
     - dynamic memory allocation
+    - basic I/O
     
 3. Use gdb to step through, inspect, and debug an executing program
 

@@ -1,6 +1,7 @@
 /*
  * Demonstrates:
  * - pointer arithmetic
+ * - array/pointer relationship
  */
 
 #include <stdio.h>
@@ -35,5 +36,5 @@ int main() {
 
     printf("\n");
   }
-  printf("\n");
+  
 }

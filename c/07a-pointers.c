@@ -12,6 +12,8 @@ int main() {
   int *p; 
   int *q;
 
+  printf("%ld, %ld\n", sizeof(i), sizeof(p));
+
   i = 10;
   p = &j;
   q = p;

@@ -12,8 +12,8 @@ void swap(int x, int y) {
 }
 
 int main() {
-    int a=10, b=20;
-    swap(a, b); // how to get this swap to work?
-    printf("a=%d, b=%d\n", a, b);
-    return 0;
+  int a=10, b=20;
+  swap(a, b); // how to get this swap to work?
+  printf("a=%d, b=%d\n", a, b);
+  return 0;
 }

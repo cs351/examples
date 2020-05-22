@@ -13,7 +13,7 @@
 
 #define DEBUG // can also introduce with -D DEBUG 
 
-#define VERSION 2
+#define VERSION 2 // can be set with -D VERSION=N
 
 int main() {
   printf(GREETING);

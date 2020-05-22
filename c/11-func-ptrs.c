@@ -1,12 +1,23 @@
 /*
  * Demonstrates:
  * - function pointers
+ * - higher order function: "map"
  */
 
 #include <stdio.h>
 
-int square(int x) {
-  return x * x;
+void square_each(int *arr, int n) {
+  int i;
+  for (i=0; i<n; i++) {
+    arr[i] = arr[i] * arr[i];
+  }
+}
+
+void cube_each(int *arr, int n) {
+  int i;
+  for (i=0; i<n; i++) {
+    arr[i] = arr[i] * arr[i] * arr[i];
+  }
 }
 
 void map(int (*f)(int), int *arr, int n) {
@@ -14,6 +25,10 @@ void map(int (*f)(int), int *arr, int n) {
   for (i=0; i<n; i++) {
     arr[i] = (*f)(arr[i]);
   }
+}
+
+int square(int x) {
+  return x * x;
 }
 
 int main() {

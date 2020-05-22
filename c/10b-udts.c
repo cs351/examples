@@ -1,3 +1,9 @@
+/*
+ * Demonstrates:
+ * - struct definition and usage
+ * - typedefs with structs
+ */
+
 #include <stdio.h>
 #include <math.h>
 
